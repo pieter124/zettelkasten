@@ -1,0 +1,8 @@
+{{date}} 
+
+Tags:
+
+# **{{Title}}**
+
+
+**References**
