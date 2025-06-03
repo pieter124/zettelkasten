@@ -1,7 +1,6 @@
 2025-05-31 
 
 Tags: [[linux]] [[library]] [[project]]
-
 # **Library & Dependencies**
 
 ```
@@ -15,3 +14,5 @@ sudo apt install liblua5.3-dev
 
 
 **References**
+
+Pikuma's 2D Game Engine Course
