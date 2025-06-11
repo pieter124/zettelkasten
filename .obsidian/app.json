@@ -2,5 +2,6 @@
   "promptDelete": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "1 - Rough Notes",
-  "attachmentFolderPath": "5 - Assets"
+  "attachmentFolderPath": "5 - Assets",
+  "alwaysUpdateLinks": true
 }

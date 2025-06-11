@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "34cd317dd886eddf",
+        "id": "a02e0ee55fc1ce39",
         "type": "tabs",
         "children": [
           {
-            "id": "370ee378b1edd696",
+            "id": "29a324b5cfea3883",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Structured Notes/Data Structures & Algorithms/Backtracking.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Backtracking"
+              "title": "New tab"
             }
           }
         ]
@@ -78,22 +74,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 200
   },
   "right": {
     "id": "b9101fb105fd78ba",
     "type": "split",
     "children": [
       {
-        "id": "bcedab03702e03cc",
+        "id": "046e3b4b4b16746f",
         "type": "tabs",
         "children": [
           {
-            "id": "5c8043c49f9dd48b",
+            "id": "1fdcea6ef4025132",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4 - Structured Notes/Data Structures/B-Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for B-Trees"
             }
           },
           {
-            "id": "30fbab3445e2c5f1",
+            "id": "8a2e4b3d21269192",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "4 - Structured Notes/Data Structures/B-Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from B-Trees"
             }
           },
           {
-            "id": "d9f44892d0a6f892",
+            "id": "a5a80f0a0a58271b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,24 +133,25 @@
             }
           },
           {
-            "id": "a38880b52a755cbb",
+            "id": "998c56b2be617735",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "4 - Structured Notes/Data Structures/B-Trees.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of B-Trees"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -165,39 +164,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "370ee378b1edd696",
+  "active": "320563036ef298b4",
   "lastOpenFiles": [
+    "4 - Structured Notes/Data Structures/B-Trees.md",
+    "4 - Structured Notes/Data Structures/Heaps.md",
+    "2 - Tags/computer science.md",
+    "4 - Structured Notes/Untitled.md",
+    "4 - Structured Notes/Data Structures",
+    "4 - Structured Notes/Mathematics/LaTeX.md",
+    "5 - Assets/Pasted image 20250610193614.png",
+    "5 - Assets/Pasted image 20250610193457.png",
+    "5 - Assets/Pasted image 20250610193426.png",
+    "5 - Assets/Pasted image 20250610193358.png",
+    "4 - Structured Notes/Algorithms/Dynamic Programming.md",
+    "5 - Assets/Pasted image 20250610000343.png",
+    "5 - Assets/Pasted image 20250609231706.png",
+    "5 - Assets/Pasted image 20250609225559.png",
+    "5 - Assets/Pasted image 20250609225203.png",
+    "4 - Structured Notes/Algorithms/Greedy Algorithm.md",
+    "5 - Assets/Pasted image 20250609225127.png",
     "5 - Assets/Pasted image 20250602161649.png",
+    "2 - Tags/algorithms.md",
+    "4 - Structured Notes/Algorithms/Backtracking.md",
+    "2 - Tags/organisation.md",
+    "2 - Tags/mathematics.md",
+    "2 - Tags/data structures.md",
+    "4 - Structured Notes/Algorithms/Depth-First Search.md",
+    "4 - Structured Notes/Algorithms/Sliding Window.md",
+    "2 - Tags/dynamic programming.md",
     "3 - Templates/Project.md",
     "3 - Templates/Lecture.md",
-    "4 - Structured Notes/Data Structures & Algorithms/Binary Search.md",
-    "4 - Structured Notes/Data Structures & Algorithms/Breadth-First Search.md",
-    "4 - Structured Notes/Data Structures & Algorithms/Backtracking.md",
-    "4 - Structured Notes/Data Structures & Algorithms/Depth-First Search.md",
+    "4 - Structured Notes/Algorithms/Binary Search.md",
+    "4 - Structured Notes/Algorithms/Breadth-First Search.md",
     "0 - Projects/Pikuma 2D Game Engine/Library & Dependencies.md",
     "4 - Structured Notes/Learning/The Feynman Technique.md",
     "3 - Templates/Main Note.md",
     "0 - Projects",
-    "2 - Tags/algorithms.md",
-    "4 - Structured Notes/Data Structures & Algorithms/Two Pointers.md",
-    "4 - Structured Notes/Data Structures & Algorithms/Sliding Window.md",
+    "4 - Structured Notes/Algorithms/Two Pointers.md",
     "2 - Tags/learning.md",
     "4 - Structured Notes/Learning",
     "4 - Structured Notes",
     "4 - Structured Notes/Mathematics",
-    "5 - Assets/Pasted image 20250602161543.png",
     "5 - Assets",
     "2 - Tags/project.md",
     "2 - Tags/leetcode.md",
-    "2 - Tags/library.md",
-    "4 - Structured Notes/Data Structures & Algorithms",
-    "2 - Tags/linux.md",
+    "4 - Structured Notes/Algorithms",
     "0 - Projects/Pikuma 2D Game Engine",
-    "1 - Rough Notes/Maths.md",
     "Untitled 1",
-    "4 - Structured Notes",
-    "Untitled.md",
-    "3 - Templates",
-    "Testing.md"
+    "4 - Structured Notes"
   ]
 }
