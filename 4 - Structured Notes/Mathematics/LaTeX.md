@@ -13,7 +13,6 @@ Below is a cheat sheet for all the commands in LaTeX:
 
 Below is a snippet for the important math commands in LaTeX:![[Pasted image 20250610193614.png]]
 
-
 **References**
 *LaTeX's*
 **An introduction to LaTeX:** https://www.latex-project.org/about/
