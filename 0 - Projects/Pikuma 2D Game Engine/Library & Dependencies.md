@@ -22,7 +22,13 @@ Compile flags for C++:
 - -Wall : Shows all the warnings in the .cpp file. Comes before .cpp file.
 - -std=c++{version_number} : Allows us to specify the compiler version for our .cpp file. Comes before .cpp file, e.g. -std=c++17.
 
-It becomes annoying to write all these things over again each time we have to compile our program. We can use the GNU make tool to make our lives easier.``
+It becomes annoying to write all these things over again each time we have to compile our program. We can use the GNU make tool to make our lives easier.
+
+**Header & implementation files**
+
+We can divide a C++ program into 2 files, a file with the extension .h for header and the file with the extension .cpp for the implementation.
+
+
 
 **References**
 
