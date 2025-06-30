@@ -2,8 +2,10 @@ Tags:
 
 # **{{Title}}**
 
-# Objective(s):
+# Goal:
 
+
+# Minimum Viable Product
 
 
 # Subtopics / Milestones:

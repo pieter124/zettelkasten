@@ -97,7 +97,7 @@ A trick for checking if loop parallelism would work is asking the question, "Wou
 
 - Serial efficiency
 	- typically $E(N) \leq 1$
-	- $\large E(N) = \frac{T_{best}(N)}{T(N, 1}$
+	- $\large E(N) = \frac{T_{best}(N)}{T(N, 1)}$
 Where $N$ is the size of the problem and $P$ the number of processors.
 
 **Scaling**
@@ -147,6 +147,38 @@ $\large S(N, P) = \frac{T(N, 1)}{T(N, P)} = \frac{\alpha + (1 - \alpha)N}{\alpha
 	- Speedup: $S(P, P) = \alpha + (1 - \alpha) P$
 	- Efficiency: $E(P, P) = \frac{\alpha}{P} + (1 - \alpha)$
 
+If you increase the amount of work done by each parallel task then the serial component will not dominate.
+	Increase the problem size to maintain scaling.
+	Can do this by adding extra complexity or increasing the overall problem size.
+
+**Load Imbalance**
+These laws all assumed all processors are equally busy. But what happens if some run out of work?
+
+Scalability is not everything?
+	Make the best use of the processors at hand before increasing the number of processors.
+
+**Quantifying load imbalance**
+Define load imbalance factor.
+
+$\large LIF = \text{maximum load / average load}$
+
+For perfectly balanced problems, $LIF = 1.0$, as expected.
+	In general, $LIF \gt 0$.
+
+$LIF$ tells you how much faster your calculation could be with balanced load.
+
+**Summary**
+Many considerations when parallelising code.
+A variety of patterns exist that can provide well known approaches to parallelising a serial problem.
+
+Scaling is important, as the more a code scales, the larger a machine it can take advantage of.
+- Can consider weak/strong scaling.
+- In practice, overheads limit the scalability of real parallel programs.
+- Amdahl's law models these in terms of serial and parallel fractions.
+- Larger problems generally scale better, Gustafson's law.
+
+Load balance is a crucial factor.
+Metrics exist to give you an indication of how well your code performs and scales.
 
 
 

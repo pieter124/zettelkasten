@@ -66,3 +66,44 @@ Implemented using MPI.
 Another version parallelised using shared-variables model
 Implemented using OpenMP.
 - HPC standard for threaded programming
+
+MPI Data Collected:
+$\textbf{1 Core}\text{, Overall Run Time = 1.604864s, Calculation Time = 1.454321s.}$
+$\text{IO Time  }\approx \text{ 0.15s, Total CPU Time = 1.454321s.}$
+$\textbf{2 Cores}\text{, Overall Run Time = 0.882633s, Calculation Time = 0.744741s.}$
+$\text{IO Time } \approx \text{ 0.14s, Total CPU Time = 1.489482s.}$
+$\textbf{4 Cores}\text{, Overall Run Time = 0.539499s, Calculation Time = 0.391560s.}$
+$\text{IO Time } \approx \text{ 0.14s, Total CPU Time = 1.56624s.}$
+$\textbf{7 Cores}\text{, Overall Run Time = 0.398807s, Calculation Time = 0.234224s.}$
+$\text{IO Time } \approx \text{ 0.15s, Total CPU Time = 1.639568s.}$
+$\textbf{10 Cores}\text{, Overall Run Time = 0.328071s, Calculation Time = 0.172544s.}$
+$\text{IO Time} \approx \text{ 0.15s, Total CPU Time = 1.72544s.}$
+$\textbf{36 Cores}\text{, Overall Run Time = 0.221618s, Calculation Time = 0.055260s.}$
+$\text{IO Time} \approx \text{ 0.17s, Total CPU Time =  1.98936s.}$
+$\textbf{72 Cores}\text{, Overall Run Time = 0.214168s, Calculation Time = 0.029350s.}$
+$\text{IO Time } \approx \text{ 0.19s, Total CPU Time = 2.1132s.}$
+$\textbf{108 Cores}\text{, Overall Run Time = 0.197936s, Calculation Time = 0.020607s.}$
+$\text{IO Time } \approx \text{ 0.17s, Total CPU Time = 2.225556s.}$
+$\textbf{144 Cores}\text{, Overall Run Time = 0.196509s, Calculation Time = 0.015874s.}$
+$\text{IO Time } \approx \text{ 0.18s, Total CPU Time = 2.285856s}$
+
+OpenMP Data Collection:
+$\textbf{1 Core}\text{, Overall Run Time = 1.629717s, Calculation Time = 1.515646s.}$
+$\text{IO Time }\approx \text{ 0.11s, Total CPU Time = 1.515646s.}$
+$\textbf{2 Cores}\text{, Overall Run Time =  0.883056s, Calculation Time = 0.741331s.}$
+$\text{IO Time } \approx \text{ 0.14s, Total CPU Time = 1.482662s.}$
+$\textbf{4 Cores}\text{, Overall Run Time = 0.636374, Calculation Time = 0.470732s.}$
+$\text{IO Time } \approx \text{ 0.16s, Total CPU Time = 1.882928s.}$
+$\textbf{7 Cores}\text{, Overall Run Time = 0.469369s, Calculation Time = 0.297455.}$
+$\text{IO Time } \approx \text{ 0.17s, Total CPU Time = 2.082185s.}$
+$\textbf{10 Cores}\text{, Overall Run Time = 0.354399s, Calculation Time = 0.187095s.}$
+$\text{IO Time } \approx \text{ 0.17s, Total CPU Time = 1.87095s.}$
+$\textbf{12 Cores}\text{, Overall Run Time = 0.343299s, Calculation Time = 0.226674s.}$
+$\text{IO Time } \approx \text{ 0.12s, Total CPU Time = 2.720088s.}$
+$\textbf{18 Cores}\text{, Overall Run Time  = 0.313213s, Calculation Time = 0.163421s.}$
+$\text{IO Time } \approx \text{ 0.15s, Total CPU Time = 2.941578s.}$
+$\textbf{24 Cores}\text{, Overall Run Time = 0.385432s, Calculation Time = 0.196071s.}$
+$\text{IO Time } \approx \text{ 0.19s, Total CPU Time = 4.705704s.}$
+$\textbf{36 Cores}\text{, Overall Run Time = 0.258476s, Calculation Time = 0.093817s.}$
+$\text{IO Time } \approx \text{ 0.16s, Total CPU Time = 3.377412s.}$
+

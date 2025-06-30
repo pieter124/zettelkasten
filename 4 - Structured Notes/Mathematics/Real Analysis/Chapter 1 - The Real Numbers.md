@@ -138,6 +138,10 @@ $I_n =  [a_n, b_n]  = \{ x \in \textbf{R} : a_n \leq x \leq b_n\}$
 $\text{Assume also that each } I_n \text{ contains } I_{n+1}\text{. Then, the resulting nested sequence of closed intervals}$ $I_1 \supseteq I_2 \supseteq I_3 \supseteq I_4 \supseteq ....$
 $\text{has a nonempty intersection; that is } \bigcap\limits_{n = 1}^{\infty}I_n \neq \emptyset$
 
+**The Density of Q in R**
+$\textbf{Theorem 1.4.2 (Archimedean Property). } \text{(i) Given any number } x \in \textbf{R}\text{, there exists an} n \in \textbf{N}\text{ satisfying } n \gt x$
+$\text{(ii) Given any real number } y \gt 0\text{, there exists an } n \in \textbf{N }\text{satisfying } \frac{1}{n} \lt y$.
+
 
 
 **Summary in my own words:**
