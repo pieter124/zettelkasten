@@ -137,10 +137,23 @@ $\textbf{Theorem 1.4.1 (Nested Interval Property)} \text{. For each } n \in \tex
 $I_n =  [a_n, b_n]  = \{ x \in \textbf{R} : a_n \leq x \leq b_n\}$
 $\text{Assume also that each } I_n \text{ contains } I_{n+1}\text{. Then, the resulting nested sequence of closed intervals}$ $I_1 \supseteq I_2 \supseteq I_3 \supseteq I_4 \supseteq ....$
 $\text{has a nonempty intersection; that is } \bigcap\limits_{n = 1}^{\infty}I_n \neq \emptyset$
-
-**The Density of Q in R**
-$\textbf{Theorem 1.4.2 (Archimedean Property). } \text{(i) Given any number } x \in \textbf{R}\text{, there exists an} n \in \textbf{N}\text{ satisfying } n \gt x$
+$\textbf{Theorem 1.4.2 (Archimedean Property). } \text{(i) Given any number } x \in \textbf{R}\text{, there exists an } n \in \textbf{N}\text{ satisfying } n \gt x$
 $\text{(ii) Given any real number } y \gt 0\text{, there exists an } n \in \textbf{N }\text{satisfying } \frac{1}{n} \lt y$.
+
+$\textbf{Theorem 1.4.3 (Density of Q in R.)}$ 
+$\text{For every two real numbers a and b with a } \gt \text{b, } \text{there exists a rational number r satisfying } a \lt r \lt b$
+$\textbf{Corollary 1.4.4. } \text{Given any two real numbers } a \lt b,$
+$\text{there exists an irrational number t satisfying } a \lt t \lt b$.
+
+**The Existence of Square Roots**
+
+$\textbf{Theoreom 1.4.5.} \text{ There exists a real number } \alpha \in \textbf{R } \text{satisfying } \alpha^2 = 2.$
+
+Proof. Consider the set:
+$\large T = \text{\{}t \in \textbf{R} : t^2 \lt 2 \text{\}}$
+
+and set $\alpha = \text{supT}$. We are going to prove $\alpha^2 = 2$ by ruling out the possibilities $\alpha^2 \lt 2$ and $\alpha^2 \gt 2$. 
+Let's assume that $\alpha^2 \lt 2$. In search of an element of T that is larger than $\alpha$, write
 
 
 
@@ -151,6 +164,9 @@ An axiom in mathematics is an accepted assumption, to be used without proof.
 Essentially the definition of $\textbf{R}$ is made by the axiom of completeness which essentially states that any non-empty set of real numbers has a least upper bound. Meaning you can always find a number such that anything lower than that number must be in the set or is either the least upper bound. This is what gives the "infinite" appearance of any interval/set of real numbers.
 
 **1.4**
+
+Nested Interval Property is essentially saying that, for example, given a rope, if you continuously cut equal length of each ends of the rope, there will always be a little bit of rope left in the middle. So there always exists a real number between an interval
+
 
 
 **What I do not know:**
