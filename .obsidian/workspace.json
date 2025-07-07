@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d43858f8107ad2c",
+        "id": "43b5000e25885e67",
         "type": "tabs",
         "children": [
           {
-            "id": "01c032c4db7cec4c",
+            "id": "06bfe217ffcd6fdd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,8 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01c032c4db7cec4c",
+  "active": "06bfe217ffcd6fdd",
   "lastOpenFiles": [
+    "5 - Assets/Pasted image 20250706211011.png",
+    "0 - Projects/Pikuma 2D Game Engine/Library & Dependencies.md",
+    "4 - Structured Notes/Mathematics/Real Analysis/Chapter 1 - The Real Numbers.md",
+    "0 - Projects/Game Of Life.md",
     "4 - Structured Notes/EPCC/Practical.md",
     "4 - Structured Notes/EPCC/Parallel Models.md",
     "4 - Structured Notes/EPCC/Parallel Computing.md",
@@ -175,7 +179,6 @@
     "4 - Structured Notes/EPCC/Message-Passing Programming Concepts.md",
     "4 - Structured Notes/EPCC/Introduction to OpenMP GPU Offloading.md",
     "4 - Structured Notes/EPCC/Introduction to MPI.md",
-    "4 - Structured Notes/Mathematics/Real Analysis/Chapter 1 - The Real Numbers.md",
     "4 - Structured Notes/EPCC/Practical 2.md",
     "4 - Structured Notes/EPCC/GPU Architectures.md",
     "4 - Structured Notes/EPCC/Bash, Git, and Python.md",
@@ -196,10 +199,8 @@
     "2 - Tags/gpu.md",
     "3 - Templates/Lecture.md",
     "3 - Templates/Main Note.md",
-    "0 - Projects/Game Of Life.md",
     "1 - Rough Notes/HPC Architectures.md",
     "3 - Templates/Project.md",
-    "0 - Projects/Pikuma 2D Game Engine/Library & Dependencies.md",
     "4 - Structured Notes/Programming/Learning Modern C++ For Finance",
     "4 - Structured Notes/Programming/Fluent Python",
     "4 - Structured Notes/Programming",
