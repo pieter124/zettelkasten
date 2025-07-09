@@ -97,6 +97,22 @@ This is a smart command provided by SDL we can use in our makefile build command
 **Compiling & Testing All Dependencies**
 We need to use the $\text{-I}$ flag to specify the directory to look for header files.
 
-**References**
+**Library Binaries**
+Whenever we are compiling and linking, we are not compiling the entire source code of SDL again, but the linker accesses the binary of the implementation of that binary.
 
-Pikuma's 2D Game Engine Course
+Having the binaries are beneficial than compared to having the whole source code of the library as it saves compilation time. In a bigger project, the impact will be bigger.
+
+**Static vs. Dynamic Libraries**
+Statically Linked Libraries vs. Dynamically Linked Libraries
+
+**Statically Linked Libraries**: LIB files are compiled but not linked. We link them statically during your program's final link step. They are static because they cannot be shared among programs. Once you link them with a program, they will be used by that program only. These files usually have the extension .lib or .a. (where the "a" stands for "archive" and it's the Unix equivalent of a Windows .lib).
+
+![[Pasted image 20250708213142.png]]
+**Dynamically Linked Libraries**: DLL files take the idea of libraries one step further. It seems wasteful to have multiple copies of the library, each one taking up space in each of the programs. DLLs are dynamically linked, meaning that we can share one copy of the function with several programs. Multiple programs running at the same time (that use the same function) can share one copy of that function, saving memory. These dynamically linked libraries usually have the extension .dll on Windows or .so on Unix.
+![[Pasted image 20250708213322.png]]
+
+
+
+**References**
+*Pikuma's* 
+**2D Game Engine Course**
