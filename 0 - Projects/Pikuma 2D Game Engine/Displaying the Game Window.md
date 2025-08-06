@@ -162,7 +162,80 @@ But several things can happen in our system in one frame, so we have to keep pol
 
 **Rendering our SDL Window**
 
+We use $\text{SDL\_SetRenderDrawColor}$ to draw a solid colour on the canvas of the window.
+We then clear the renderer with $\text{SDL\_RenderClear}$ and draw / present it with $\text{SDL\_RenderPresent}$.
 
+Now we have a displayed window!
+
+Code for rendering:
+```cpp
+void Game::Render() {
+
+SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+SDL_RenderClear(renderer);  
+
+// TODO: Render all game objects.
+
+SDL_RenderPresent(renderer);
+}
+```
+
+**Fullscreen Window**
+
+We should have a public member variable that keeps track of the window width and window height. We pass that into the create window function. There is a special SDL struct called $\text{SDL\_DisplayMode}$ which has functions to retrieve the current width and height of our screen.
+
+Code change:
+```cpp
+SDL_DisplayMode displayMode;
+SDL_GetCurrentDisplayMode(0, &displayMode);
+
+windowWidth = displayMode.w;
+windowHeight = displayMode.h;
+
+window = SDL_CreateWindow(NULL, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+windowWidth,
+windowHeight,
+SDL_WINDOW_BORDERLESS
+);
+```
+
+This is a very C-style way of doing things. 
+This is what is called a fake fullscreen as the video mode was not actually changed to fullscreen.
+
+**Fake Fullscreen & Real Fullscreen**
+
+There is a problem though, let us say the user has a very small screen, if we use fake fullscreen, then we just fill the screen up. And if we are playing against a user that has a much larger screen, they would be able to see much more of the map. Essentially, we do not want to give people with larger screens an advantage. 
+So we have to give our game engine / game a fixed size.
+
+**SDL GPU Acceleration & VSync**
+
+SDL is a very smart library. By default, it will try to figure out if your system has a dedicated graphics card and use it to render screen objects.
+
+When we invoke $\text{SDL\_CreateRenderer}$, we can manually instruct SDL to try to use accelerated GPU. This should be SDL's default behaviour anyway, but if you want to force the system to try finding a GPU, you can pass a special flag at the end of the $\text{SDL\_CreateRenderer}$ call:
+
+```cpp
+SDL_CreateRenderer(
+window,
+-1
+SDL_RENDERER_ACCELERATED
+)
+```
+
+And since we are talking about these special renderer flags, there's another one that I think we should pay attention to. SDL allows us to send a flag to force synchronization with VSync. VSync (or vertical sync) is a graphics technology that synchronizes the frame rate of a game with a gaming monitor's refresh rate. Enabling VSync will prevent some screen tearing artifacts when we display displaying our objects in our game loop, as it will try to synchronize the rendering of our frame with the refresh rate of the monitor.
+
+Keep in mind that enabling VSync can (and most likely will) affect your FPS. For example, your game might be running at 3000 FPS but if your monitor runs at 60Hz, your frames per second with VSync will drop to 60 FPS. Of course, your rendering FPS will be limited but you can find ways of still updating the game's logic or physics step more than 60 FPS.
+
+Therefore, we can also go ahead and manually instruct the SDL renderer that we want to use VSync. We can join both flags using a bitwise "or" operator:
+
+```cpp
+SDL_CreateRenderer(
+window,
+-1
+SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC
+);
+```
+
+This will use both flags, telling SDL to use hardware acceleration and also use VSync to prevent any screen tearing in the future.
 
 **References**
 *Pikuma's*
